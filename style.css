@@ -20,29 +20,31 @@ You will find this is far easier than the opposite task of using CSS to cram you
 
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
-    font-size: 16px;
+    font-size: 20px;
 
 }
 
 body {
     background-color: #f2f4f0;
     margin: 20px;
+
    font-family: 'Gupter', serif;
 
 }
 
 h1, h2 {
     text-align: center;
-    color: #36454F;
+    color: #2a2727;
+  
 }
 h1 {
-    font-size: 48px;
+    font-size: 72px;
 }
 
 .container { 
     width:100%; 
-    max-width: 1200px;
-    margin: 20px;
+    
+    margin: 0px auto;
     padding: 10px;
 }
 .intro {
@@ -58,7 +60,7 @@ img {
 }
 .flex {
     padding: 10px;
-justify-content: space-around;
+    justify-content: space-around;
 }
 .flex > div{
     padding:10px;
@@ -87,6 +89,10 @@ flex-basis:25%;
 
 .lead_image {
     max-width: 30%;
+}
+.container{
+    max-width: 1200px;
+}
 }
 
 /*********************************************************************
