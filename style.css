@@ -19,7 +19,7 @@ You will find this is far easier than the opposite task of using CSS to cram you
 }
 
 html, body {
-    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    /* Sets default font-size to 20px; */
     font-size: 20px;
 
 }
@@ -44,7 +44,7 @@ h1 {
 .container { 
     width:100%; 
     
-    margin: 0px auto;
+    margin: 0px auto; /* this centers the container */
     padding: 10px;
 }
 .intro {
@@ -91,7 +91,7 @@ flex-basis:25%;
     max-width: 30%;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1200px; /* This limits the size on big screens */
 }
 }
 
